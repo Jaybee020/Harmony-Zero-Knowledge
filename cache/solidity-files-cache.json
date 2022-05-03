@@ -1,0 +1,112 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/jaybee/Desktop/Hello World/contracts/Ballot.sol": {
+      "lastModificationDate": 1651604662065,
+      "contentHash": "3b786f111ab876f2afb1e85eabe16747",
+      "sourceName": "contracts/Ballot.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.16 <0.9.0"
+      ],
+      "artifacts": [
+        "Ballot"
+      ]
+    },
+    "/Users/jaybee/Desktop/Hello World/contracts/TestBallot.sol": {
+      "lastModificationDate": 1651606261523,
+      "contentHash": "f4f09b5f1ecbbfab7647d5710cbc1597",
+      "sourceName": "contracts/TestBallot.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ballot.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.16 <0.9.0"
+      ],
+      "artifacts": [
+        "TestBallot"
+      ]
+    },
+    "/Users/jaybee/Desktop/Hello World/contracts/HelloWorld.sol": {
+      "lastModificationDate": 1651612267737,
+      "contentHash": "f4cda635c98bd9ed9520c7f84cd40bb1",
+      "sourceName": "contracts/HelloWorld.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.16 <0.9.0"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    }
+  }
+}
